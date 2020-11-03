@@ -1,0 +1,21 @@
+ public class StringTester
+{
+    static void main () {
+    String theory="String Theory is very complicated";  
+    
+    System.out.println(theory.length());
+    
+    System.out.println(theory);
+    
+    System.out.println(theory.toLowerCase());
+    
+    System.out.println(theory.toUpperCase());
+    
+    String compsci=" but string comp sci is \"fun\"";
+    
+    System.out.println(theory + compsci);
+    
+   
+        
+    }
+} 
