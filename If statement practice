@@ -1,0 +1,64 @@
+ public class StringTester {
+    static void main () {
+    
+    int y=20;    
+    if (y<30)
+    {
+        System.out.println("y is less than 30");
+    }
+    else {
+     System.out.println("y is greater then 30");   
+        
+    }
+    int x=50;
+    if (x==50)
+    {
+        System.out.println("x is 50");
+    }
+    else {
+        System.out.println("x is not 50");
+    }
+    int z=75;
+    if (z>=60)
+    {
+        System.out.println("z is greater then of equal to 60");
+    }
+    else {
+        System.out.println("z is not greater then or equal to 60");
+    }
+    int q=100;
+    if (q<=100)
+    {
+        System.out.println("q is less than or equal to 100");
+    }
+    else {
+        System.out.println("q is greater than 100");
+    }
+    int p=9999;
+    if (p!=9000)
+    {
+        System.out.println("p is ! 9000");
+    }
+    else {
+        System.out.println("p is not ! 9000");
+    }
+    
+     String icecream="Strawberry";
+    
+    System.out.println("Ice cream");
+    switch (icecream) {
+       
+        case "Strawberry":
+        System.out.println("Strawberry");
+        break;
+        
+        case "Cookies":
+        System.out.println("Cookies");
+        break;
+    
+   
+        
+     }
+    
+    }
+}
