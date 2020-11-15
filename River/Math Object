@@ -1,0 +1,19 @@
+ public class StringTester {
+    static void main () {
+    
+        
+        System.out.println (Math.max(5, 10));
+        
+        System.out.println (Math.min(1,2));
+        
+        System.out.println (Math.sqrt(124));
+        
+        System.out.println (Math.abs(-10));
+        
+        int x = (int)(Math.random());
+        
+        System.out.println (x);
+    
+    }
+}
+ 
