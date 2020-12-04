@@ -1,0 +1,11 @@
+
+public class HellowWorld
+ {
+        public static void Arrays (){
+            String[] classes = {"math", "comp sci", "english", "mandarin", "theatre",
+            "physics"};
+            
+            System.out.println(classes[1]);
+        
+        }
+}
