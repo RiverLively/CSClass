@@ -1,0 +1,31 @@
+
+public class HellowWorld
+ {
+        public static void While (){
+            int i = 0;
+            while (i < 5) {
+                System.out.println(i);
+                i++;
+           
+        }
+        
+    } 
+    
+    public static void DoWhile () {
+        int x = 0;
+        do {
+            System.out.println(x);
+            x++;
+            
+    } while (x < 5); 
+        }
+        
+    public static void For () {
+        {
+            for (int y = 0; y < 5; y++) {
+                System.out.println(y);
+            }
+        }
+    }
+}
+  //======= end class HelloWorld =======
